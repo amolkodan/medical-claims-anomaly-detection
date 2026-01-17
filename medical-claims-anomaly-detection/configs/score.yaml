@@ -1,0 +1,7 @@
+features_config: "configs/features.yaml"
+scoring:
+  output_score_column: "anomaly_score"
+  output_flag_column: "review_flag"
+  thresholding:
+    method: "top_fraction"
+    top_fraction: 0.02
