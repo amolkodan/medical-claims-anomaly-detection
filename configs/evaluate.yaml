@@ -1,0 +1,9 @@
+evaluation:
+  score_column: "anomaly_score"
+  label_column: "is_fraud_suspected"
+  thresholding:
+    grid:
+      - 0.005
+      - 0.01
+      - 0.02
+      - 0.05
